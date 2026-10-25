@@ -1,121 +1,119 @@
 # AI-TE
-# 🏋️‍♂️ Fitness Expert System
+# 🏋️‍♂️ Sistem Pakar Kebugaran (Fitness Expert System)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![React](https://img.shields.io/badge/React-18+-61dafb?logo=react)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-4+-3178c6?logo=typescript)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3+-38bdf8?logo=tailwindcss)](https://tailwindcss.com/)
 
-A modern web-based expert system that helps users plan personalized workout routines and delivers motivational quotes. Built with **React**, **TypeScript**, and **Tailwind CSS**, this project demonstrates a rule-based inference engine for fitness recommendations.
+Sistem pakar berbasis web modern yang membantu pengguna merencanakan rutinitas latihan yang dipersonalisasi dan menampilkan kutipan motivasi. Dibangun dengan **React**, **TypeScript**, dan **Tailwind CSS**, proyek ini mendemonstrasikan mesin inferensi berbasis aturan (*rule-based inference engine*) untuk rekomendasi kebugaran.
 
-## ✨ Features
-- **Personalized Workout Planner:** Input your fitness goals, experience level, and available equipment to receive a tailored workout plan.
-- **Exercise Database:** Curated exercises with detailed descriptions and categories.
-- **Motivational Quotes:** Inspiring, randomly displayed quotes to keep you motivated.
-- **Rule-Based Inference Engine:** Smart recommendations based on user input and expert rules.
-- **Modern UI:** Responsive, accessible, and visually appealing interface powered by Tailwind CSS.
+## ✨ Fitur
+- **Perencana Latihan yang Dipersonalisasi:** Masukkan tujuan kebugaran, tingkat pengalaman, dan peralatan yang tersedia untuk mendapatkan rencana latihan yang sesuai.
+- **Basis Data Latihan:** Kumpulan latihan pilihan lengkap dengan deskripsi detail dan kategori.
+- **Kutipan Motivasi:** Kutipan inspiratif yang ditampilkan secara acak untuk menjaga semangatmu.
+- **Mesin Inferensi Berbasis Aturan:** Rekomendasi cerdas berdasarkan masukan pengguna dan aturan pakar.
+- **UI Modern:** Antarmuka yang responsif, mudah diakses, dan menarik secara visual, didukung oleh Tailwind CSS.
 
-## 📁 Project Structure
+## 📁 Struktur Proyek
 
 ```text
 fitness-expert-system/
 ├── src/
-│   ├── components/    # Reusable React components
-│   ├── data/          # Exercise, quotes, and rules data
-│   ├── hooks/         # Custom React hooks
-│   ├── types/         # TypeScript type definitions
-│   └── utils/         # Inference engine and utilities
-├── index.html         # Main HTML file
-├── package.json       # Project metadata and dependencies
-├── tailwind.config.js # Tailwind CSS configuration
-├── vite.config.ts     # Vite build configuration
+│   ├── components/    # Komponen React yang dapat digunakan ulang
+│   ├── data/          # Data latihan, kutipan, dan aturan
+│   ├── hooks/         # Custom hooks React
+│   ├── types/         # Definisi tipe TypeScript
+│   └── utils/         # Mesin inferensi dan fungsi utilitas
+├── index.html         # File HTML utama
+├── package.json       # Metadata proyek dan dependensi
+├── tailwind.config.js # Konfigurasi Tailwind CSS
+├── vite.config.ts     # Konfigurasi build Vite
 └── ...
 ```
 
-## 🚀 Getting Started
+## 🚀 Memulai
 
-### Prerequisites
-- [Node.js](https://nodejs.org/) (v16 or higher recommended)
+### Prasyarat
+- [Node.js](https://nodejs.org/) (disarankan v16 atau lebih baru)
 - [npm](https://www.npmjs.com/)
 
-### Installation
-1. **Clone the repository:**
+### Instalasi
+1. **Clone repositori:**
    ```sh
    git clone https://github.com/your-username/fitness-expert-system.git
    cd fitness-expert-system
    ```
-2. **Install dependencies:**
+2. **Instal dependensi:**
    ```sh
    npm install
    ```
-3. **Start the development server:**
+3. **Jalankan server pengembangan:**
    ```sh
    npm run dev
    ```
-4. **Open** [http://localhost:5173](http://localhost:5173) in your browser.
+4. **Buka** [http://localhost:5173](http://localhost:5173) di browser kamu.
 
-## 📝 Usage
+## 📝 Cara Penggunaan
 
-1. Fill out the workout form with your preferences.
-2. View your personalized workout plan and motivational quote.
-3. Adjust your inputs to generate new plans.
+1. Isi formulir latihan sesuai preferensimu.
+2. Lihat rencana latihan yang dipersonalisasi beserta kutipan motivasinya.
+3. Ubah masukanmu untuk menghasilkan rencana baru.
 
-## 🛠️ Technologies Used
+## 🛠️ Teknologi yang Digunakan
 
 - [React](https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Vite](https://vitejs.dev/)
 
+## 📸 Tangkapan Layar
 
-
-## 📸 Screenshots
-
-### Homepage
+### Beranda
 <div align="center">
-   <img src="./src/screenshots/homepg-one.png" alt="Homepage" width="600" />
-   <img src="./src/screenshots/homepg-two.png" alt="Homepage" width="600" />
-   <img src="./src/screenshots/homepg-three.png" alt="Homepage" width="600" />
-   <img src="./src/screenshots/homepg-four.png" alt="Homepage" width="600" />
+   <img src="./src/screenshots/homepg-one.png" alt="Beranda" width="600" />
+   <img src="./src/screenshots/homepg-two.png" alt="Beranda" width="600" />
+   <img src="./src/screenshots/homepg-three.png" alt="Beranda" width="600" />
+   <img src="./src/screenshots/homepg-four.png" alt="Beranda" width="600" />
 </div>
 
-### Input Forms
+### Formulir Input
 <div align="center">
-   <img src="./src/screenshots/input-form-one.png" alt="Input Form" width="600" />
-   <img src="./src/screenshots/input-form-two.png" alt="Input Form" width="600" />
+   <img src="./src/screenshots/input-form-one.png" alt="Formulir Input" width="600" />
+   <img src="./src/screenshots/input-form-two.png" alt="Formulir Input" width="600" />
 </div>
 
-### Recommendation
+### Rekomendasi
 <div align="center">
-   <img src="./src/screenshots/recommendation-one.png" alt="Recommendation" width="600" />
-   <img src="./src/screenshots/recommendation-two.png" alt="Recommendation" width="600" />
-   <img src="./src/screenshots/recommendation-three.png" alt="Recommendation" width="600" />
+   <img src="./src/screenshots/recommendation-one.png" alt="Rekomendasi" width="600" />
+   <img src="./src/screenshots/recommendation-two.png" alt="Rekomendasi" width="600" />
+   <img src="./src/screenshots/recommendation-three.png" alt="Rekomendasi" width="600" />
 </div>
 
-## 🤝 Contributing
+## 🤝 Kontribusi
 
-Contributions are welcome! Please open an issue or submit a pull request for improvements and bug fixes.
+Kontribusi sangat diterima! Silakan buka *issue* atau kirim *pull request* untuk perbaikan dan penyelesaian bug.
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/YourFeature`)
-3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature/YourFeature`)
-5. Open a pull request
+1. Fork repositori ini
+2. Buat branch fitur kamu (`git checkout -b feature/FiturKamu`)
+3. Commit perubahanmu (`git commit -m 'Tambah fitur baru'`)
+4. Push ke branch tersebut (`git push origin feature/FiturKamu`)
+5. Buka pull request
 
-## 📄 License
+## 📄 Lisensi
 
-This project is licensed under the [MIT License](LICENSE).
+Proyek ini dilisensikan di bawah [Lisensi MIT](LICENSE).
 
-## 🙏 Acknowledgments
+## 🙏 Ucapan Terima Kasih
 
-- Inspired by the need for accessible, expert-backed fitness planning tools.
-- Thanks to the open-source community for libraries and resources.
+- Terinspirasi oleh kebutuhan akan alat perencanaan kebugaran yang mudah diakses dan didukung oleh keahlian pakar.
+- Terima kasih kepada komunitas open-source atas pustaka dan sumber dayanya.
 
-## 📬 Contact
+## 📬 Kontak
 
-For questions, feedback, or collaboration, please contact [chinomsochristian03@gmail.com](mailto:chinomsochristian03@gmail.com).
+Untuk pertanyaan, masukan, atau kolaborasi, silakan hubungi [chinomsochristian03@gmail.com](mailto:chinomsochristian03@gmail.com).
 
-## 🧑‍💻 Author
+## 🧑‍💻 Penulis
 
 **Nduoma Chinomso Christian**  
 _AKA Buzz brain_
