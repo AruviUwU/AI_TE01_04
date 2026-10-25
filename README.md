@@ -32,6 +32,9 @@ AI-TE04/
 ├── Task-02-Search-Algorithm/
 │   ├── README.md
 │   ...
+├── Task-03-MAS/
+│   ├── README.md
+│   ...
 ...
 ```
 ## 📚 Task List
@@ -40,6 +43,7 @@ AI-TE04/
 |---|---|---|
 | 01 | Expert System | Implementasi sistem pakar |
 | 02 | Search Algorithm | Implementasi algoritma pencarian |
+| 03 | MAS | Implementasi Multi Agent System|
 ...
 
 ---
