@@ -6,7 +6,7 @@ Repository ini merupakan pusat pengumpulan dan pengembangan tugas kelompok untuk
 
 | Informasi | Detail |
 |---|---|
-| Nama Kelompok | AI-TE04 |
+| Nama Kelompok | AI-TE01-04 |
 | Mata Kuliah | Artificial Intelligence |
 | Kelas | EL-48-01 |
 | Dosen Pengampu | Heru Syah Putra, S.Kom.,M.Sc. |
